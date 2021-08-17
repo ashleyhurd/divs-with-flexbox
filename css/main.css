@@ -97,12 +97,13 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url(../lights.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'STIX Two Text', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,8 +112,12 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
+  margin: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,14 +125,19 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: transparent;
   height: 300px;
   display: flex;
   width: 30%;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
+.div-2 {
+  border-right: 1px white solid;
+  border-left: 1px white solid;
+}
 
 
 
